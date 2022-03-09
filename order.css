@@ -1,0 +1,55 @@
+body{
+    background:linear-gradient(green,black)
+}
+table{
+    height: 430px; 
+    
+}
+input{
+    width:100%;
+    height:35px;
+    border: 2px solid green;
+    font-size: 18px;
+}
+select{
+    width:100%;
+    height:35px;
+    border: 2px solid green;
+    font-size: 18px;
+}
+textarea{
+    width:100%;
+    height:100px;
+    border: 2px solid green;
+    font-size: 18px;
+
+}
+.btn {
+    border:0px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn input{
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    border: 0;
+    background-color: orange;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.5), 0 5px 20px 0 rgba(0,0,0, 0.5);
+
+}
+.btn input:hover{
+    background-color: green;
+color:white;
+}
+h1{
+    color:white;
+    font-size: 40px;
+}
+td{
+    font-size: 22px;
+}
